@@ -1,0 +1,297 @@
+.profileHeaderMain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: cadetblue;
+}
+.profileHeaderContainer {
+    /* width: 55%; */
+    min-width: 598px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem 2rem;
+    gap: 3rem;
+}
+.profileHeaderImg {
+    height: 106px;
+    width: 106px;
+    border-radius: 50%;
+}
+.profileHeaderRight {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.profileHeaderHead {
+    display: flex;
+    justify-content: space-between;
+}
+.profileHeaderHeadName {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 31px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+.profileHeader1 {
+    display: flex;
+    gap: 3rem;
+}
+.profileHeaderEdit {
+    color: #FDA200;
+    font-family: "SF UI Text";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: right;
+    margin-top: 3%;
+    cursor: pointer;
+    display: grid;
+    align-items: end;
+}
+.profileHeaderHead2 {
+    display: flex;
+    align-items: center;
+}
+.profileHeaderHead1 {
+    display: flex;
+    gap: 2rem;
+}
+.profileHeaderReferRect{
+    background-image: url('../../assets/Rectangle\ 3\ Copy\ 3.png');
+    height: 36px;
+    width: 151px;
+    border-radius: 18px;
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+    cursor: pointer;
+}
+.profileHeaderReferTxt {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    line-height: 19px;
+    text-align: center;
+    text-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+    padding: 6%;
+}
+.profileHeaderName {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+    display: flex;
+}
+.profileHeaderMobEmail {
+    display: flex;
+    gap: 1rem;
+}
+.profileHeaderMobile {
+    display: flex;
+}
+.orderDetailsModalContainerEdit {
+    position: relative;
+    width: auto;
+    background: white;
+    padding: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    border-radius: 10px;
+}
+.profileHerderMobileNum {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+    display: flex;
+    text-align: start;
+    padding-right: 14px;
+}
+.profileHeaderMobile {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-right: 1px solid #FFFFFF;
+}
+.profileHeaderEmail {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-right: 1px solid #FFFFFF;
+}
+.profileHeaderEmailTxt {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding-right: 14px;
+}
+.profileHeaderCredit {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.profileHedaerCreditEarned {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+.profileHeaderCreditPoint {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 33px;
+}
+.profileHeaderBottom {
+    display: flex;
+    gap: 2.5rem;
+}
+.profileHederMobImg {
+    display: flex;
+}
+.profileHeaderOrderComp {
+    display: flex;
+    gap: 5px;
+}
+.profileHeaderOrder {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+.profileHeaderOrderNum {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+.profileHeaderAddress {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+.profileHeaderPayment {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+.profileHedaerReview {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+.profileHeaderGallery {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+.profileEditContainer {
+    display: flex;
+    gap: 5%;
+    padding: 1%;
+}
+.profileEditLeft {
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    gap: 40px;
+    border-right: 1px solid #A4A4A4;
+    width: 100%;
+}
+.profileEditImageDiv {
+    position: relative;
+    display: flex;
+}
+img.profileEditImg {
+    border-radius: 50%;
+    height: 106px;
+    width: 106px;
+}
+img.profileEditAddImg {
+    position: absolute;
+    left: 30%;
+    top: 66%;
+}
+img.profileEditAddImg {
+    position: absolute;
+    left: 23%;
+    top: 73%;
+}
+.profileEditRight {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 5%;
+}
+.profileEditRectangle {
+    height: 50px;
+    width: 158px;
+    background-image: url('../../assets/Rectangle\ 3\ Copy\ 3.png');
+    border-radius: 6px;
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+}
+.profileEditRight1Txt {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.profileEditBottomBtn {
+display: flex;
+    justify-content: flex-end;
+}
+.profileEditRectangleTxt {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.56px;
+    line-height: 22px;
+    text-align: center;
+    text-shadow: 0 0 9px 0 #FFFFFF;
+    padding: 9%;
+}
+.profileEditTxtFeild {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.profileEditAvatar {
+    display: flex;
+    flex-wrap: wrap;
+}

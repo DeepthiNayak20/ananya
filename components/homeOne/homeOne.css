@@ -1,0 +1,240 @@
+.homeOneContainer {
+  background-image: url("../../assets/BG\ 1.jpg");
+  min-height: 100vh;
+  height: auto;
+  background-size: contain;
+  display: flex;
+  background-repeat: no-repeat;
+}
+
+.oneConatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8%;
+  width: auto;
+  margin-top: 10%;
+  margin-left: 13%;
+}
+
+.order {
+  color: #4c4c4c;
+  font-family: "Open Sans";
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 70px;
+}
+
+.ordeDiv {
+  display: flex;
+  text-align: start;
+  width: 100%;
+}
+
+.searchFeildOne {
+  padding: 0.8em 0.8em;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14);
+  width: 34rem;
+  border: none;
+  padding: 20px 0px 20px 50px;
+  outline: none;
+  color: #393939;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.27px;
+  line-height: 22px;
+}
+
+.foodFormOne {
+  display: flex;
+  width: 100%;
+  margin: 0px 0px 0px 12px;
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+
+.searchFeild::placeholder {
+  color: #bdbdbd;
+}
+
+.placeDateOne {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 4rem;
+}
+
+.placeDiv {
+  position: relative;
+}
+
+.placeNameOne {
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 22px 40px 24px 28px;
+  border: none;
+  outline: none;
+  color: #4c4c4c;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: -0.24px;
+  line-height: 19px;
+}
+
+.pinImage {
+  position: absolute;
+  top: 1.5rem;
+  left: 0.5rem;
+}
+
+.gps {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+}
+
+.datePicker {
+  display: flex;
+  gap: 2rem;
+}
+
+.dateTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4c4c4cd6;
+  font-family: ".SF NS Text";
+  font-size: 14px;
+  letter-spacing: -0.24px;
+  line-height: 17px;
+}
+
+.foodInput {
+  width: 88%;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50%;
+  margin-top: 13%;
+}
+
+.scrollText {
+  opacity: 0.66;
+  color: #848484;
+  font-family: "Open Sans";
+  font-size: 13px;
+  letter-spacing: 3.66px;
+  line-height: 18px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 925px) {
+  .searchFeild {
+    width: 100%;
+  }
+
+  .placeDate {
+    flex-direction: column;
+  }
+
+  .placeDiv {
+    width: 70%;
+    display: flex;
+  }
+
+  .datePicker {
+    width: 70%;
+  }
+
+  .dateTime {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .order {
+    font-size: 40px;
+  }
+
+  .scroll {
+    margin-top: 0%;
+    margin-right: 75%;
+  }
+  .oneConatiner {
+    gap: 6%;
+    margin-top: 41%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .order {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .scroll {
+    margin-top: 0%;
+    margin-right: 84%;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  .searchFeildOne {
+    width: 100%;
+  }
+
+  .placeDate {
+    flex-direction: column;
+  }
+
+  .placeDiv {
+    width: 70%;
+    display: flex;
+  }
+
+ .datePicker {
+   width: 70%;
+   gap: 4px;
+ }
+
+  .dateTime {
+    width: 100%;
+    font-size: 12px;
+  }
+
+    .order {
+      font-size: 27px;
+      line-height: 40px;
+    }
+
+  .scroll {
+    margin-top: 0%;
+    margin-right: 75%;
+  }
+     .placeDateOne {
+       gap: 1rem;
+     }
+}
+
+@media only screen and (max-width: 425px) {
+  .order {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .scroll {
+    margin-top: 0%;
+    margin-right: 84%;
+  }
+}

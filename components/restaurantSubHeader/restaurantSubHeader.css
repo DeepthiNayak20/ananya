@@ -1,0 +1,81 @@
+.scheduleBodyy {
+    position: relative;
+    width: 64%;
+    background: white;
+    height: auto;
+    padding: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    border-radius: 10px;
+}
+
+.scheduleHeading {
+    color: #4C4C4C;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.34px;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.scheduleBodyHold {
+    display: flex;
+    padding: 2rem 3rem;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.scheduleBody {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 17px;
+    letter-spacing: -0.41px;
+    line-height: 23px;
+}
+
+form.shceduleForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.scheduleDateTime {
+
+    width: 80%;
+    border-radius: 6px;
+    background: linear-gradient(138.33deg, #F3698E 0%, #FEB456 100%);
+    box-shadow: 0 4px 10px 0 rgba(246, 126, 126, 0.38);
+    outline: none;
+    border: none;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.56px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 16px;
+
+}
+
+.scheduleBttn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backBtnConatiner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.scheduleBodyHold {
+    padding: 2rem 3rem;
+}
